@@ -59,8 +59,8 @@ Script ini di modifikasi sama saya sendiri Chandra ID.
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/rafiadichandra0101/RAC-AI-BOT
-> cd RAC-AI-BOT
+> git clone https://github.com/rafiadichandra0101/BotWa_
+> cd BotWa_
 > npm i -g cwebp 
 > npm i node-tesseract-ocr
 > npm i -g ytdl
