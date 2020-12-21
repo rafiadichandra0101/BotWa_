@@ -1,7 +1,7 @@
 /*
 * JANGAN UBAH-UBAH INFO!!!
 * "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY ARIS187 ID
+* SKRIP OLEH CHANDRA ID
 * JANGAN MODAL NAMA DOANG BOSQ
 * HARGAILAH YG MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
@@ -225,8 +225,8 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'wikiid':
-           wikiid(value)
+       case 'wiki':
+           wiki(value)
                .then(data => {
                     const { hasil: res } = data
                     let hasil = `*📝Menurut Wikipedia* :\n\n${res} \n\n--oo0oo-- \n_M a d e   W i t h ❤️   *C h a n z ' B O T*_`
